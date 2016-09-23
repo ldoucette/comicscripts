@@ -12,7 +12,7 @@ root
   - class (folder)
   - create a main folder for the comic page
       * sub folder is name read as chapter
-          ** inside are the image comic panels.
+      * inside are the image comic panels.
 
 Inside panels.php
   set folder name on the blank
