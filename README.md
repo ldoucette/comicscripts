@@ -1,5 +1,10 @@
 # comicscripts
 
+Latest announcement:
+The script needs updating.  This will be updated soon!
+
+------------->
+
 Comic script is designed to comic artists wanabes.  
 
 The comic.php is the page that displays the list of chapters and comic page.  The panels.php is the file that sets the data that comic.php displays.
