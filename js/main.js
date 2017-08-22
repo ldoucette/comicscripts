@@ -38,12 +38,10 @@ $('#chapters').on('click','.btnChapters', function() {
 
 $('#pNo').on('click','.btnPage', function() {
     page=eval($(this).val());
-    //alert(page);
     loadPage(page);
 });
 
 function loadData (chapter) {
-    console.log(page + " " + chapter);
     var comic={};
     $.ajax({
       type: "POST",
@@ -85,14 +83,6 @@ function loadPages(chapter,pages) {
 }
 
 function loadPage(page) {
-  /*
-  $('#panel').html("");
-  $('#panel img').remove();
-  console.log('#panel');
-  $('<img src="'+ comicData.pages[page] +'">').on('load',function() {
-    $(this).appendTo('#panel');
-  });
-  */
   if (comicData.pages!=null) {
     var line='<img src="'+ comicData.pages[page] +'">';
     $('#panel').html(line);
@@ -108,9 +98,6 @@ function loadChapter(chapter) {
 }
 
 function refreshComic() {
-  //alert(comicData.chapter);
-  //alert(comicData.chapters);
-  //alert("refreshComic " + comicData.pages);
   loadChapters(comicData.chapters);
   loadPages(comicData.chapter, comicData.pages);
   loadChapter(comicData.chapter);
