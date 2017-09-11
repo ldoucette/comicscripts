@@ -14,3 +14,12 @@ How to use
 It is important to note that subfolder inside panels will be the button title for group images.  You can set it as Chapter 1, Part 1 or Scene 1.
 
 It is very easy to use.  
+
+Directory heirarchy
+  root
+    - comic.php
+    - panels.php
+    - panels (folder - created by you)
+        - subfolders - titles will be used as button names
+    - class folder
+    - js folder
