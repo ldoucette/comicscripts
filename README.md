@@ -2,7 +2,7 @@
 
 Comic script is designed to display an image comic panels, pages, and chapters.  
 
-The comic.php is the file page that displays the list of chapters and comic page with first, next, previous and last button.  The panels.php is the file that sets the data that comic.php displays.
+The comic.php is the file page that displays the list of chapters and comic page with first, next, previous and last button.  
 
 How to use
   1. Download and unzip file
