@@ -16,10 +16,10 @@ It is important to note that subfolder inside panels will be the button title fo
 It is very easy to use.  
 
 Directory heirarchy
-  root
-    - comic.php
-    - panels.php
-    - panels (folder - created by you)
-        - subfolders - titles will be used as button names
-    - class folder
-    - js folder  
+<br/> root
+<br/>   - comic.php
+<br/>   - panels.php
+<br/>   - panels (folder - created by you)
+<br/>   - subfolders - titles will be used as button names
+<br/>   - class folder
+<br/>   - js folder  
