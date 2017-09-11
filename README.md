@@ -22,4 +22,4 @@ Directory heirarchy
     - panels (folder - created by you)
         - subfolders - titles will be used as button names
     - class folder
-    - js folder 
+    - js folder  
